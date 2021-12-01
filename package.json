@@ -3,27 +3,24 @@
     "description": "Template inheritance for Angular JS",
     "version": "0.1.10",
     "private": false,
-    "homepage": "https://github.com/wmluke/angular-blocks",
+    "homepage": "https://github.com/mzukowski/angular-blocks",
     "author": {
         "name": "William L. Bunselmeyer",
         "email": "wmlukeb@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/wmluke/angular-blocks.git"
+        "url": "git://github.com/mzukowski/angular-blocks.git"
     },
     "bugs": {
         "url": "https://github.com/wmluke/angular-blocks/issues"
-    },
-    "engines": {
-        "node": ">= 4.2",
-        "npm": "2.14.x"
     },
     "scripts": {
         "test": "grunt test-phantom",
         "start": "node app",
         "coveralls": "cat ./reports/coverage/*/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
+    "dependencies": {},
     "devDependencies": {
         "grunt": "~0.4.1",
         "chai": "~3.5.0",
